@@ -162,3 +162,42 @@ nav{
         display: none;
     }
 }
+
+/* Diseño de synthesize */
+.primary-button{
+    background-color: var(--hospital-green);
+    border-radius: 8px;
+    border: none;
+    color: var(--white);
+    width: 100%;
+    cursor: pointer;
+    height: 50px;
+    font-size: var(--md);
+    font-weight: bold;
+}
+.cart-description .input{
+    background-color: var(--text-input-field);
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    height: 30px;
+    font-size: var(--md);
+    padding: 6px;
+    
+    margin: 20px 0 35px 0;
+}
+.container-synth{
+    width: 100%;
+    height: 500px;
+    display: grid;
+    place-items: center;
+    z-index: 1;
+}
+.present-cart-synth{
+    width: 60%;
+    display: grid;
+    place-items: center;
+    height: 320px;
+    background-color: var(--text-input-field);
+    border-radius: 20px;
+}

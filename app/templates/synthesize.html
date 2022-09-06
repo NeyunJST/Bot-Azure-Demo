@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block bodycontent %}
+<!-- #region synthesize -->
+
+<section class="container-synth">
+    <article class="present-cart-synth">
+        <div class="mini-container">
+            <h1 class="cart-title">Contenido de la pagina</h1>
+            <form class="cart-description">
+                <label for="statement">
+                    <span>Ingrese el texto a reproducir </span>
+                    <input type="text" name="statement" class="input" id="statement" placeholder="Escribe aquí el enunciado..." required autofocus>
+                    <button type="submit" class="primary-button">Probar</button>
+                </label>
+            </form>
+        </div>
+    </article>
+</section>
+
+<!-- #endregion -->
+{% endblock %}
